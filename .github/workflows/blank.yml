@@ -3,11 +3,7 @@ name: Build & compare with main
 on:
   push:
     branches:
-      - main
-      - dev
-      # add more branches if you want, e.g.:
-      # - feature/*
-      # - bugfix/*
+      - '**'
 
 jobs:
   build-and-compare:
